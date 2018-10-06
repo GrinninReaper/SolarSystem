@@ -4,7 +4,7 @@
 Complet
 ```
 
-/*Projet effectué pour le cours d'Informatique Graphique*/
+/*Projet effectué pour le cours d'Informatique Graphique en 2018*/
 
 ### Contexte
 Projet qui a pour but de découvrir des notions de l'informatique graphique par la recherche personnelle.
