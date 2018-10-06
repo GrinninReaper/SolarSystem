@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>imageloader.cpp</FILENAME>
+      <LINE>158</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Utilisation de la mémoire non initialisée 'width'.</DESCRIPTION>
+    <FUNCTION>loadBMP</FUNCTION>
+    <DECORATED>?loadBMP@@YAPAVImage@@PBD@Z</DECORATED>
+    <FUNCLINE>111</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>119</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>déclaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'width' n'est pas initialisé</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>créer une branche</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Le commutateur Assume ( 'headerSize' ) se traduit par case 64: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>utilisation</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'width' est utilisé, mais n'a peut-être pas été initialisé</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>imageloader.cpp</FILENAME>
+      <LINE>159</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Utilisation de la mémoire non initialisée 'height'.</DESCRIPTION>
+    <FUNCTION>loadBMP</FUNCTION>
+    <DECORATED>?loadBMP@@YAPAVImage@@PBD@Z</DECORATED>
+    <FUNCLINE>111</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>119</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>déclaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'height' n'est pas initialisé</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>créer une branche</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Le commutateur Assume ( 'headerSize' ) se traduit par case 64: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>utilisation</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'height' est utilisé, mais n'a peut-être pas été initialisé</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>La déclaration locale de 'sun' masque la déclaration précédente à la ligne '32' de 'c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp'.</DESCRIPTION>
+    <FUNCTION>setup</FUNCTION>
+    <DECORATED>?setup@@YAXXZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>solarsystem.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>La déclaration locale de 'mer' masque la déclaration précédente à la ligne '33' de 'c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp'.</DESCRIPTION>
+    <FUNCTION>setup</FUNCTION>
+    <DECORATED>?setup@@YAXXZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>solarsystem.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>95</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>La déclaration locale de 'ven' masque la déclaration précédente à la ligne '34' de 'c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp'.</DESCRIPTION>
+    <FUNCTION>setup</FUNCTION>
+    <DECORATED>?setup@@YAXXZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>solarsystem.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>99</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>La déclaration locale de 'ear' masque la déclaration précédente à la ligne '35' de 'c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp'.</DESCRIPTION>
+    <FUNCTION>setup</FUNCTION>
+    <DECORATED>?setup@@YAXXZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>solarsystem.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>103</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>La déclaration locale de 'mar' masque la déclaration précédente à la ligne '36' de 'c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp'.</DESCRIPTION>
+    <FUNCTION>setup</FUNCTION>
+    <DECORATED>?setup@@YAXXZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>solarsystem.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>107</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>La déclaration locale de 'jup' masque la déclaration précédente à la ligne '37' de 'c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp'.</DESCRIPTION>
+    <FUNCTION>setup</FUNCTION>
+    <DECORATED>?setup@@YAXXZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>solarsystem.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>La déclaration locale de 'sat' masque la déclaration précédente à la ligne '38' de 'c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp'.</DESCRIPTION>
+    <FUNCTION>setup</FUNCTION>
+    <DECORATED>?setup@@YAXXZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>solarsystem.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>La déclaration locale de 'ura' masque la déclaration précédente à la ligne '39' de 'c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp'.</DESCRIPTION>
+    <FUNCTION>setup</FUNCTION>
+    <DECORATED>?setup@@YAXXZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>solarsystem.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>La déclaration locale de 'nep' masque la déclaration précédente à la ligne '40' de 'c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp'.</DESCRIPTION>
+    <FUNCTION>setup</FUNCTION>
+    <DECORATED>?setup@@YAXXZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>solarsystem.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>452</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>6319</DEFECTCODE>
+    <DESCRIPTION>L'utilisation de l'opérateur virgule au sein d'une expression testée empêche la prise en compte de l'argument de gauche lorsqu'il n'a aucun effet secondaire.</DESCRIPTION>
+    <FUNCTION>animate</FUNCTION>
+    <DECORATED>?animate@@YAXH@Z</DECORATED>
+    <FUNCLINE>441</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>463</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>6319</DEFECTCODE>
+    <DESCRIPTION>L'utilisation de l'opérateur virgule au sein d'une expression testée empêche la prise en compte de l'argument de gauche lorsqu'il n'a aucun effet secondaire.</DESCRIPTION>
+    <FUNCTION>animate</FUNCTION>
+    <DECORATED>?animate@@YAXH@Z</DECORATED>
+    <FUNCLINE>441</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>551</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6200</DEFECTCODE>
+    <DESCRIPTION>L'index '9' est en dehors de la plage d'index valide '0' à '8' pour la mémoire tampon 'int * label_state' non allouée par la pile.</DESCRIPTION>
+    <FUNCTION>keyInput</FUNCTION>
+    <DECORATED>?keyInput@@YAXEHH@Z</DECORATED>
+    <FUNCLINE>542</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>solarsystem.cpp</FILENAME>
+      <LINE>552</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6200</DEFECTCODE>
+    <DESCRIPTION>L'index '9' est en dehors de la plage d'index valide '0' à '8' pour la mémoire tampon 'int * found' non allouée par la pile.</DESCRIPTION>
+    <FUNCTION>keyInput</FUNCTION>
+    <DECORATED>?keyInput@@YAXEHH@Z</DECORATED>
+    <FUNCLINE>542</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

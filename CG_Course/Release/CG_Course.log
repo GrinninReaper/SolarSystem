@@ -1,0 +1,50 @@
+﻿  stdafx.cpp
+  imageloader.cpp
+  SolarSystem.cpp
+SolarSystem.cpp(33): warning C4305: 'argument' : troncation de 'double' à 'float'
+SolarSystem.cpp(35): warning C4305: 'argument' : troncation de 'double' à 'float'
+SolarSystem.cpp(36): warning C4305: 'argument' : troncation de 'double' à 'float'
+SolarSystem.cpp(37): warning C4305: 'argument' : troncation de 'double' à 'float'
+SolarSystem.cpp(38): warning C4305: 'argument' : troncation de 'double' à 'float'
+SolarSystem.cpp(39): warning C4305: 'argument' : troncation de 'double' à 'float'
+SolarSystem.cpp(40): warning C4305: 'argument' : troncation de 'double' à 'float'
+SolarSystem.cpp(125): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(151): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(152): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(153): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(154): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(155): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(156): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(157): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(158): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(185): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
+SolarSystem.cpp(199): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(223): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(247): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(271): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(295): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(305): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
+SolarSystem.cpp(319): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(329): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
+SolarSystem.cpp(343): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(349): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(350): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(361): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
+SolarSystem.cpp(375): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(385): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
+SolarSystem.cpp(398): warning C4244: 'argument' : conversion de 'double' en 'GLint', perte possible de données
+SolarSystem.cpp(476): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  Analyse du code en cours pour C/C++...
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+  Génération de code en cours
+  All 184 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' n'a pu être trouvé avec 'glew32s.lib(glew.obj)' ou sur 'C:\Users\Abdoulaye Diongue\Documents\ET3\Infographie\Solar_System_final_version\Release\vc120.pdb' ; l'objet sera lié sans informations de débogage
+  CG_Course.vcxproj -> C:\Users\Abdoulaye Diongue\Documents\ET3\Infographie\Solar_System_final_version\Release\CG_Course.exe
+  CG_Course.vcxproj -> C:\Users\Abdoulaye Diongue\Documents\ET3\Infographie\Solar_System_final_version\Release\CG_Course.pdb (Full PDB)
+c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\imageloader.cpp(158): warning C6001: Utilisation de la mémoire non initialisée 'width'.
+c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\imageloader.cpp(159): warning C6001: Utilisation de la mémoire non initialisée 'height'.
+c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp(452): warning C6319: L'utilisation de l'opérateur virgule au sein d'une expression testée empêche la prise en compte de l'argument de gauche lorsqu'il n'a aucun effet secondaire.
+c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp(463): warning C6319: L'utilisation de l'opérateur virgule au sein d'une expression testée empêche la prise en compte de l'argument de gauche lorsqu'il n'a aucun effet secondaire.
+c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp(551): warning C6200: L'index '9' est en dehors de la plage d'index valide '0' à '8' pour la mémoire tampon 'int * label_state' non allouée par la pile.
+c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\solarsystem.cpp(552): warning C6200: L'index '9' est en dehors de la plage d'index valide '0' à '8' pour la mémoire tampon 'int * found' non allouée par la pile.

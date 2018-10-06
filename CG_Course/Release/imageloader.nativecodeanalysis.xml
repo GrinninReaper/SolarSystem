@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>imageloader.cpp</FILENAME>
+      <LINE>158</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Utilisation de la mémoire non initialisée 'width'.</DESCRIPTION>
+    <FUNCTION>loadBMP</FUNCTION>
+    <DECORATED>?loadBMP@@YAPAVImage@@PBD@Z</DECORATED>
+    <FUNCLINE>111</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>119</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>déclaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'width' n'est pas initialisé</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>créer une branche</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Le commutateur Assume ( 'headerSize' ) se traduit par case 64: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>utilisation</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'width' est utilisé, mais n'a peut-être pas été initialisé</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+      <FILENAME>imageloader.cpp</FILENAME>
+      <LINE>159</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Utilisation de la mémoire non initialisée 'height'.</DESCRIPTION>
+    <FUNCTION>loadBMP</FUNCTION>
+    <DECORATED>?loadBMP@@YAPAVImage@@PBD@Z</DECORATED>
+    <FUNCLINE>111</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>119</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>déclaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'height' n'est pas initialisé</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>créer une branche</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Le commutateur Assume ( 'headerSize' ) se traduit par case 64: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\abdoulaye diongue\documents\et3\infographie\solar_system_final_version\cg_course\</FILEPATH>
+        <FILENAME>imageloader.cpp</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>utilisation</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'height' est utilisé, mais n'a peut-être pas été initialisé</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
