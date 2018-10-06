@@ -8,7 +8,7 @@ Complet
 
 ### Contexte
 Projet qui a pour but de découvrir des notions de l'informatique graphique par la recherche personnelle.
-
+Le cours est effectué en anglais comme la présentation.
 Projet effectué en groupe de 4.
 
 ### Encadrant
@@ -18,8 +18,9 @@ Projet effectué en groupe de 4.
 ### Utilitaire
 * Fait sur Visual Studio
 * Ne contient pas le fichiers externals: GLEW; GLFW, glm
+* Ne contient pas le fichier de travail de Visual Studio
+* Ne contient pas la dernière exécution réussie
 
 ### Résultat
-Note obtenue : 18/20
-
-Certification de l'INRIA pour le meilleur projet
+* Note obtenue : 18/20
+* Certification de l'INRIA pour le meilleur projet
